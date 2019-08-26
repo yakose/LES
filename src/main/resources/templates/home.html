@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>LES - Welcome</title>
+        <link rel="stylesheet" th:href="@{webjars/bootstrap/4.2.1/css/bootstrap.min.css}"/>
+        <link rel="stylesheet" th:href="@{/css/main.css}"/>
+
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+           
+        </nav>
+
+        <main role="main" class="container">
+            <div class="starter-template">        
+                <h1>Welcome to LES- Evening School</h1>                 
+            </div>
+             <ul>
+                    <li><a id="courseProgramLink" href="/courseprogram">Course program</a></li>
+                    <li><a id="editCoursesLink" href="/editcourseprogram">Edit courses</a></li>
+                </ul>
+        </main>
+        <!-- /.container -->
+
+        <script type="text/javascript" th:src="@{webjars/bootstrap/4.2.1/js/bootstrap.min.js}"></script>
+    </body>
+</html>
